@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_paint/pages/circle_page.dart';
 import 'package:flutter_custom_paint/pages/linepage.dart';
 import 'package:flutter_custom_paint/pages/rectangle_page.dart';
 
@@ -45,7 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
   int index=0;
   List<Widget>pages=[
     const Linepage(),
-    const RectanglePage()
+    const RectanglePage(),
+    const CirclePage() 
   ];
   @override
   Widget build(BuildContext context) {
