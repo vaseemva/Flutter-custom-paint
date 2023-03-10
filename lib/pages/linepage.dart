@@ -5,19 +5,16 @@ class Linepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   
-      
-      return Center(
-        child: Container(
-          color: Colors.white,
-          width: 300,
-          height: 300,
-          child: CustomPaint(
-            foregroundPainter: LinePainter(),
-          ),
+    return Center(
+      child: Container(
+        color: Colors.white,
+        width: 300,
+        height: 300,
+        child: CustomPaint(
+          foregroundPainter: LinePainter(),
         ),
-      );
-    
+      ),
+    );
   }
 }
 

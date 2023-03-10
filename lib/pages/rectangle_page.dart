@@ -24,7 +24,7 @@ class RectanglePainter extends CustomPainter {
     final paint = Paint()
       ..strokeWidth = 10
       ..strokeCap = StrokeCap.round
-      ..style=PaintingStyle.stroke
+      ..style = PaintingStyle.stroke
       ..color = Colors.blue;
 
     final rect = Rect.fromPoints(
